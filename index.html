@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Junior Count Game</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <h1 class="heading">Junior Count Game</h1>
+    </header>
+
+    <!--Game Area-->
+    <div id="game-area">
+        <!--Game Home Page Area-->
+        <div id="intro-part">
+            <h3>How well do you know to count?</h3>
+            <h4>Start this quiz to find out...</h4>
+        </div>
+        <img class="logo" src="assets/images/logo.ico" alt="numbers logo"
+            id="logo-img">
+        <div>
+            <button class="start-btn btn" id="start-button" aria-label="Click here to start the game">Start Game</button><button class="rules-btn btn"
+                id="rules-button" aria-label="Click here to read the game rules">Rules</button>
+        </div>
+
+         <!--Question Area-->
+         <div id="question-area" class="hide">
+            <div>
+                <h3 id="question-title">Question <span id="question-number">1</span>
+                </h3>
+                <!--Quiz Timer Countdown Element-->
+                <div class="timer-element">
+                    <p>
+                        <i class="fas fa-stopwatch" id="icon"></i><span id="timer">  0</span>
+                    </p>
+         </div>
+
+         <!--Question Image Element-->
+         <img class="logo" src="assets/images/logo.png" alt="Logo number image" id="question-img">
+         <p id="question">Question</p>
+     </div>
+
+      <!--Game Answer Area-->
+      <div id="answer-area">
+        <button class="answer-btn" id="answer1" aria-label="Click here to choose answer 1">Answer 1</button>
+        <button class="answer-btn" id="answer2" aria-label="Click here to choose answer 2">Answer 2</button>
+        <button class="answer-btn" id="answer3" aria-label="Click here to choose answer 3">Answer 2>Answer 3</button>
+    </div>
+
+    <!--Game Score Area-->
+    <div id="score-area">
+        <p id="score-p">Score:<span id="score">0</span><button class="next-btn btn" id="next-button">Next</button></p>
+    </div>
+</div>
+
+<!--Game End Page Area-->
+<div id="end-of-game" class="hide">
+    <img src="assets/images/logo.png" alt="Logo number image" id="end-img">
+    <p id="final-score-text"> <span id="final-score">0</span> </p>
+    <button id="play-again-btn" class="btn" aria-label="Click here to play again">Play Again</button> <a id="home" href="index.html" aria-label="Go back to the Home Page">Home</a>
+</div>
+
+</div>
+
+<!--Font Awesome script-->
+<script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+
+<!--Link to Javascript-->
+<script src="assets/js/script.js"></script>
+</body>
+
+</html>
