@@ -11,7 +11,7 @@ body {
     font-size: 1.3rem;
     color: #252525;
     text-align: center;
-    background-image: url('../images/background-up.jpg');
+    background-image: url('../images/background3.jpg');
     background-size: 200rem;
     background-repeat: no-repeat;
     background-position: right;
@@ -26,7 +26,7 @@ body {
     font-weight: 700;
     text-align: center;
     font-size: 3rem;
-    color: white;
+    color:black;
     margin: 4%;
 }
 
@@ -52,7 +52,7 @@ body {
     text-align: center;
     justify-content: center;
     box-shadow: 0 0 10px 2px;
-    background-color: #a4def9;
+    background-color: #a7e3ff;
 }
 
 #question-area h3 {
