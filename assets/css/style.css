@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Kalam:wght@300&display=swap');
+
+/* Global style */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Kalam", cursive, sans-serif;
+    font-size: 1.3rem;
+    color: #252525;
+    text-align: center;
+    background-image: url('../images/background-up.jpg');
+    background-size: 200rem;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+/* HomePage */
+
+.heading {
+    font-family: 'Amatic SC', cursive, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    margin: 4%;
+}
+
+.logo {
+    height: 18vh;
+}
+
+#rules {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+/* QuizPage */
+
+/* Quiz Question Area */
+
+#game-area {
+    max-width: 80%;
+    max-height: 75%;
+    margin: auto;
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 0 10px 2px;
+    background-color: #a4def9;
+}
+
+#question-area h3 {
+    text-decoration: underline;
+}
+
+h3 {
+    margin: 5px;
+}
+
+h4 {
+    margin: 5px;
+}
+
+#question {
+    margin: 5px;
+}
+
+#question-img{
+    height: 15vh;
+}
+
+#question-title {
+    margin: 2%;
+}
+
+/* Timer Element */
+
+.timer-element {
+    margin-left: 10%;
+    color: black;
+    width: 75px;
+    height: 50px;
+    border-radius: 50%; 
+}
+
+#icon {
+    color: #d62828;
+    font-size: 3rem;
+    padding-right: 10px;
+}
+
+#timer {
+    font-weight: bold;
+}
+
+/* Answer Area */
+
+#answer-area {
+    display: grid;
+    gap: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.answer-btn {
+    font-family: "Kalam", cursive, sans-serif;
+    color: black;
+    font-size: large;
+    padding: 8px;
+    border: 2px solid darkcyan;
+    border-radius: 5px;
+}
+
+.answer-btn:hover {
+    border: 2px solid black;
+}
+
+/* Score Area */
+
+#score-area {
+    padding: 0px 20px 0px 20px;
+}
+
+#score {
+    margin: 5px;
+}
+
+#score-p {
+    margin: 7px;
+}
+
+/* End Page */
+/* Final Score Image */
+
+#end-img {
+    height: 33vh;
+}
+
+/* Buttons */
+
+.start-btn, .next-btn, .home-btn, .rules-btn, .btn {
+    font-family: 'Amatic SC', cursive, sans-serif;
+    color: black;
+    font-size: larger;
+    padding: 8px;
+    border: 2px solid darkcyan;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: white;
+}
+
+.btn:hover {
+    border: 2px solid black;
+}
+
+#home {
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive, sans-serif;
+    color: black;
+    font-size: larger;
+    padding: 8px;
+    border: 2px solid darkcyan;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: white;
+}
+
+#home:hover {
+    border: 2px solid black;
+}
+
+/* Classes for Javascript functions */
+
+.hide {
+    display: none;
+}
+
+.btn-correct {
+    background-color: #08bd11;
+}
+
+.btn-wrong {
+    background-color: #d62828;
+}
+
+/* Media Queries */
+/* for medium tablet screen size from 768px wide and up */
+@media screen and (min-width: 768px) {
+
+    body {
+        font-size: 1.9rem;
+    }
+
+    .heading {
+        font-size: 5rem;
+    }
+
+    #intro-area {
+        max-width: 500px;
+        margin: auto;
+        text-align: center; 
+    }
+
+    .answer-btn {
+        font-size: 1.7rem;
+        max-width: 900px;
+    }
+
+    #rules {
+        text-align: left;
+        font-size: 1.3rem;
+        margin-left: 50px;
+    }
+
+    .timer-element {
+        width: 100px;
+        height: 50px;
+    }
+
+}
+
+/* for medium tablet screen size from 1200px wide and up */ 
+@media screen and (min-width: 1200px) {
+    #intro-part {
+        max-width: 700px;
+        margin: auto;
+        text-align: center;    
+    }
+
+    #rules {
+        text-align: left;
+        font-size: 1.8rem;
+        margin-left: 50px;
+    }
+}
