@@ -276,7 +276,7 @@
      finalScore = correctAnswerCounter * scorePoints;
      finalScoreText.innerHTML = ` Congratulations! Your total score is: ${finalScore}.`;
      if (correctAnswerCounter <= 5) {
-         endImg.setAttribute('src', "assets/images/carpet-sad.png");
+         endImg.setAttribute('src', "assets/images/logo1.png");
          finalScoreText.innerHTML = `Oh no! You only scored ${finalScore}. Better luck next time!`;
      }
  }
@@ -298,7 +298,7 @@
          answerButtons[i].classList.remove('btn-wrong');
      }
      nextButton.innerText = "Next";
-     endImg.setAttribute('src', "assets/images/carpet.png");
+     endImg.setAttribute('src', "assets/images/logo1.png");
      restoreQuestions();
      correctAnswerCounter = 0;
      scoreText.innerText = `${correctAnswerCounter - correctAnswerCounter}`;
