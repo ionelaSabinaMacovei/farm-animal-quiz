@@ -113,7 +113,7 @@ h4 {
     color: black;
     font-size: large;
     padding: 8px;
-    border: 2px solid rgb(17, 180, 80);
+    border: 2px solid #2EC4B6;
     border-radius: 5px;
 }
 
@@ -150,7 +150,7 @@ h4 {
     color: black;
     font-size: larger;
     padding: 8px;
-    border: 2px solid rgb(17, 180, 80);
+    border: 2px solid #CBF3F0;
     border-radius: 5px;
     margin: 10px;
     background-color: white;
@@ -166,7 +166,7 @@ h4 {
     color: black;
     font-size: larger;
     padding: 8px;
-    border: 2px solid rgb(17, 180, 80);
+    border: 2px solid #2EC4B6;
     border-radius: 5px;
     margin: 10px;
     background-color: white;
@@ -189,6 +189,30 @@ h4 {
 .btn-wrong {
     background-color: #d62828;
 }
+
+/* Footer */
+/* The Footer section includes a grid to organize all of the elements such as logo, social media links and contact information. */
+
+
+.social-networks {
+    display: inline-flex;
+    margin-left: 10px;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #FF9F1C;
+}
+
 
 
 /* Media Queries */
@@ -226,6 +250,8 @@ h4 {
     }
 
 }
+
+
 
 /* for medium tablet screen size from 1200px wide and up */ 
 @media screen and (min-width: 1200px) {
