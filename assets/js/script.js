@@ -11,6 +11,8 @@
  let answerTwo = document.getElementById("answer2");
  let answerThree = document.getElementById("answer3");
  
+
+ 
  /* Game Areas */
  
  let introPart = document.getElementById("intro-part");
@@ -23,6 +25,7 @@
  
  let logoImg = document.getElementById("logo-img");
  let questionImg = document.getElementById("question-img");
+
  let endImg = document.getElementById("end-img");
  let shuffledQuestions = [];
  let currentQuestionIndex = [];
@@ -135,7 +138,7 @@
      answerTwo.innerText = currentQuestion.answer2;
      answerThree.innerText = currentQuestion.answer3;
      questionImg.setAttribute('src', "assets/images/" + currentQuestion.img);
-         
+     
      answerOne.addEventListener('click', checkAnswer);
      answerTwo.addEventListener('click', checkAnswer);
      answerThree.addEventListener('click', checkAnswer);
@@ -263,7 +266,7 @@
  }
  
  /**
-  * Once 12 questions have been played, the endGame function is called. 
+  * Once 10 questions have been played, the endGame function is called. 
   * This shows the user their final score and shows them a happy image or a sad image depending on how many
   * answers they got correct.
  */
@@ -310,6 +313,7 @@
      questions.push(...removedQuestions);
      removedQuestions.length = 0;
  }
+
  
  //List of Quiz questions
  
@@ -321,9 +325,7 @@
          answer2: 'Pig',
          answer3: 'Cat',
          correct: 'Cow',
-         img: "cow2.png",
-
-         
+         img: "cow2.png",  
      },
      {
         question : "What farm animal is this?", 
@@ -331,7 +333,9 @@
         answer2: "Horse",
         answer3: "Cat",
         correct: "Cat",
-        img: "cat.png" 
+        img: "cat.png",
+       
+
     },
     {
         question : "What farm animal is this?",

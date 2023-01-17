@@ -26,7 +26,7 @@ body {
     font-weight: 700;
     text-align: center;
     font-size: 3rem;
-    color:black;
+    color: #FF9F1C;
     margin: 4%;
 }
 
@@ -52,7 +52,7 @@ body {
     text-align: center;
     justify-content: center;
     box-shadow: 0 0 5px 2px;
-    background-color: #f6ffa7;
+    background-color: #FFBF69;
 }
 
 #question-area h3 {
@@ -135,6 +135,7 @@ h4 {
     margin: 7px;
 }
 
+
 /* End Page */
 /* Final Score Image */
 
@@ -188,6 +189,7 @@ h4 {
 .btn-wrong {
     background-color: #d62828;
 }
+
 
 /* Media Queries */
 /* for medium tablet screen size from 768px wide and up */
