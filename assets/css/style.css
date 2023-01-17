@@ -52,7 +52,7 @@ body {
     text-align: center;
     justify-content: center;
     box-shadow: 0 0 10px 2px;
-    background-color: #a7e3ff;
+    background-color: #c0ffa7;
 }
 
 #question-area h3 {
@@ -113,7 +113,7 @@ h4 {
     color: black;
     font-size: large;
     padding: 8px;
-    border: 2px solid darkcyan;
+    border: 2px solid rgb(17, 180, 80);
     border-radius: 5px;
 }
 
@@ -149,7 +149,7 @@ h4 {
     color: black;
     font-size: larger;
     padding: 8px;
-    border: 2px solid darkcyan;
+    border: 2px solid rgb(17, 180, 80);
     border-radius: 5px;
     margin: 10px;
     background-color: white;
@@ -165,7 +165,7 @@ h4 {
     color: black;
     font-size: larger;
     padding: 8px;
-    border: 2px solid darkcyan;
+    border: 2px solid rgb(17, 180, 80);
     border-radius: 5px;
     margin: 10px;
     background-color: white;

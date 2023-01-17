@@ -42,7 +42,7 @@
  
  /* Timer */
  
- let timeleft = 16;
+ let timeleft = 31;
  let timer = document.getElementById("timer");
  let counter = 0;
  let myInterval;
@@ -156,7 +156,7 @@
  }
  
  /* Function to add timer element to the quiz. Counts down from 
-  * 15 to 0. If times runs out, timeout function called.
+  * 30 to 0. If times runs out, timeout function called.
   */
  
  function countdown() {
@@ -321,7 +321,9 @@
          answer2: '2',
          answer3: '4',
          correct: '2',
-         img: "ball.png",   
+         img: "ball.png",
+
+         
      },
      {
         question : "How many balls are there?", 
@@ -395,165 +397,6 @@
         correct: "Timon and Pumbaa",
         img: "simba.png"   
     },
-    {
-        question : "What is the special talent of Aladdin's pet monkey?",
-        answer1: "Dancing",
-        answer2: "Flying",
-        answer3: "Stealing",
-        correct: "Stealing",
-        img: "abu.png"   
-    },
-    {
-        question : "Who is Lilo's other worldly companion?",
-        answer1: "Stitch",
-        answer2: "Mitch",
-        answer3: "Rich",
-        correct: "Stitch",
-        img: "lilo.png"   
-    },
-    {
-        question : "Who is Kristoff's ice business partner?",
-        answer1: "Sven",
-        answer2: "Sergio",
-        answer3: "Olaf",
-        correct: "Sven",
-        img: "sven.png"   
-    },
-    {
-        question : "Who is Jafar's scheming sidekick?",
-        answer1: "Tiago",
-        answer2: "Abu",
-        answer3: "Iago",
-        correct: "Iago",
-        img: "iago.png"   
-    },
-    {
-        question : "What type of animal are Ursula's pets?",
-        answer1: "Octopus",
-        answer2: "Eel",
-        answer3: "Shark",
-        correct: "Eel",
-        img: "ursula.png"   
-    },
-    {
-        question : "Who is King Mufasa's royal advisor?",
-        answer1: "Sarabi",
-        answer2: "Rafiki",
-        answer3: "Zazu",
-        correct: "Zazu",
-        img: "mufasa.png"   
-    },
-    {
-        question : "What animal is Pocahontas' buddy, Meeko?",
-        answer1: "A badger",
-        answer2: "A fox",
-        answer3: "A racoon",
-        correct: "A racoon",
-        img: "pocohontas.png"   
-    },
-    {
-        question : "Who agrees to accompany Mowgli on his journey to the man village?",
-        answer1: "Baloo",
-        answer2: "Bagheera",
-        answer3: "Shere Khan",
-        correct: "Bagheera",
-        img: "mowgli.png"   
-    },
-    {
-        question : "Who is Tiana's childhood friend?",
-        answer1: "Sarah",
-        answer2: "Lindsay",
-        answer3: "Charlotte",
-        correct: "Charlotte",
-        img: "tiana.png"   
-    },
-    {
-        question : "What is the name of Rapunzel's pet chameleon?",
-        answer1: "Newton",
-        answer2: "Pascal",
-        answer3: "Fleming",
-        correct: "Pascal",
-        img: "pascal.png"   
-    },
-    {
-        question : "What is the name of Mulan's horse?",
-        answer1: "Khan",
-        answer2: "Little Brother",
-        answer3: "Mushu",
-        correct: "Khan",
-        img: "mushu.png"   
-    },
-    {
-        question : "What type of animal is Mulan's guardian, Mushu?",
-        answer1: "A dragon",
-        answer2: "A lizard",
-        answer3: "A cricket",
-        correct: "A dragon",
-        img: "mulan.png"   
-    },
-    {
-        question : "What is Olaf's favourite season?",
-        answer1: "Spring",
-        answer2: "Summer",
-        answer3: "Winter",
-        correct: "Summer",
-        img: "olaf.png"   
-    },
-    {
-        question : "Who encourages Dumbo to learn to fly?",
-        answer1: "His mother",
-        answer2: "Timothy Mouse",
-        answer3: "The crows",
-        correct: "Timothy Mouse",
-        img: "dumbo.png"   
-    },
-    {
-        question : "Who are Cinderella's only friends?",
-        answer1: "The mice",
-        answer2: "The cats",
-        answer3: "The step-sisters",
-        correct: "The mice",
-        img: "cinderella.png"   
-    },
-    {
-        question : "What is the name of Maleficent's shape-shifting sidekick?",
-        answer1: "Fauna",
-        answer2: "Ravel",
-        answer3: "Diaval",
-        correct: "Diaval",
-        img: "maleficent.png"   
-    },
-    {
-        question : "What are Quasimodo's friends, Victor, Hugo and Laverne?",
-        answer1: "Statues",
-        answer2: "Pigeons",
-        answer3: "Bats",
-        correct: "Statues",
-        img: "quasimodo.png"   
-    },
-    {
-        question : "What are the names of Cruella De Vil's useless henchmen?",
-        answer1: "Bill and Johnny",
-        answer2: "Jake and Harry",
-        answer3: "Horace and Jasper",
-        correct: "Horace and Jasper",
-        img: "cruella.png"   
-    },
-    {
-        question : "What is the name of the wise old owl in 'Sword In The Stone'?",
-        answer1: "Archimedes",
-        answer2: "Socrates",
-        answer3: "Aristotle",
-        correct: "Archimedes",
-        img: "archimedes.png"   
-    },
-    {
-        question : "Who is Pooh's sweet, yet nervous best friend?",
-        answer1: "Tigger",
-        answer2: "Piglet",
-        answer3: "Rabbit",
-        correct: "Piglet",
-        img: "pooh.png"   
-    },
+   
  ];
  
