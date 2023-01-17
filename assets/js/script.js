@@ -316,86 +316,86 @@
  let questions = [
      {
         
-        question: "How many balls are there?",
-         answer1: '1',
-         answer2: '2',
-         answer3: '4',
-         correct: '2',
-         img: "ball.png",
+        question: "What farm animal is this?",
+         answer1: 'Cow',
+         answer2: 'Pig',
+         answer3: 'Cat',
+         correct: 'Cow',
+         img: "cow2.png",
 
          
      },
      {
-        question : "How many balls are there?", 
-        answer1: "Pongo and Perdi",
-        answer2: "Bernard and Bianca",
-        answer3: "Flotsam and Jetsam",
-        correct: "Pongo and Perdi",
-        img: "pongo-perdi.png" 
+        question : "What farm animal is this?", 
+        answer1: "Cow",
+        answer2: "Horse",
+        answer3: "Cat",
+        correct: "Cat",
+        img: "cat.png" 
     },
     {
-        question : "What are the names of Beast's trusty household helpers?",
-        answer1: "Chip and Dale",
-        answer2: "Cogsworth and Lumiere",
-        answer3: "Donald and Daffy",
-        correct: "Cogsworth and Lumiere",
-        img: "cogsworth-lumiere.png" 
+        question : "What farm animal is this?",
+        answer1: "Goat",
+        answer2: "Pig",
+        answer3: "Horse",
+        correct: "Horse",
+        img: "horse.png" 
     },
     {
-        question : "What type of animal is Raya's pet, Tuk Tuk?",
-        answer1: "A horse",
-        answer2: "A dragon",
-        answer3: "An armadillo",
-        correct: "An armadillo",
-        img: "raya.png"  
+        question : "What farm animal is this?",
+        answer1: "Dog",
+        answer2: "Cat",
+        answer3: "Horse",
+        correct: "Dog",
+        img: "dog.png"  
     },
     {
-        question : "What is the name of Ariel's pet angelfish?",
-        answer1: "Sebastian",
-        answer2: "Scuttle",
-        answer3: "Flounder",
-        correct: "Flounder",
-        img: "flounder.png" 
+        question : "What farm animal is this?",
+        answer1: "Cow",
+        answer2: "Pig",
+        answer3: "Goat",
+        correct: "Pig",
+        img: "pig.png" 
     },
     {
-        question : "Who becomes Marlin's unlikely friend and sidekick whilst in search of his son?",
-        answer1: "Dory",
-        answer2: "Sole",
-        answer3: "Haddock",
-        correct: "Dory",
-        img: "nemo.png"  
+        question : "What farm animal is this?",
+        answer1: "Sheep",
+        answer2: "Horse",
+        answer3: "Duck",
+        correct: "Sheep",
+        img: "sheep.png"  
     },
     {
-        question : "What is the name of Moana's brainless chicken?",
-        answer1: "Hei hei",
-        answer2: "Ho ho",
-        answer3: "Ha ha",
-        correct: "Hei hei",
-        img: "chicken.png"  
+        question : "What farm animal is this?",
+        answer1: "Rooster",
+        answer2: "Chicken",
+        answer3: "Duck",
+        correct: "Rooster",
+        img: "rooster.png"  
     },
     {
-        question : "What magical sidekick does Elsa accidentally create as a child?",
-        answer1: "A reindeer",
-        answer2: "A snowman",
-        answer3: "A fire spirit",
-        correct: "A snowman",
-        img: "frozen.png"   
+        question : "What farm animal is this?",
+        answer1: "Horse",
+        answer2: "Chicken",
+        answer3: "Dog",
+        correct: "Chicken",
+        img: "chicken.png"   
     },
     {
-        question : "Which princess end up with seven trusty sidekicks whilst hiding in the forest?",
-        answer1: "Snow White",
-        answer2: "Cinderella",
-        answer3: "Aurora",
-        correct: "Snow White",
-        img: "dwarfs.png"   
+        question : "What farm animal is this?",
+        answer1: "Duck",
+        answer2: "Sheep",
+        answer3: "Pig",
+        correct: "Duck",
+        img: "duck.png"   
     },
     {
-        question : "Who takes care of Simba after he runs away from the Pridelands?",
-        answer1: "Shenzi and Banzai",
-        answer2: "Timon and Pumbaa",
-        answer3: "Zazu and Rafiki",
-        correct: "Timon and Pumbaa",
-        img: "simba.png"   
+        question : "What farm animal is this?",
+        answer1: "Cat",
+        answer2: "Cow",
+        answer3: "Goat",
+        correct: "Goat",
+        img: "goat.png"   
     },
    
  ];
