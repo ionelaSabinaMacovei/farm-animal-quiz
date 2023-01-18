@@ -10,6 +10,8 @@
  let answerOne = document.getElementById("answer1");
  let answerTwo = document.getElementById("answer2");
  let answerThree = document.getElementById("answer3");
+ let playAudio = document.getElementById("play");
+ let pauseAudio = document.getElementById("pause");
 
  
  /* Game Areas */
@@ -24,6 +26,9 @@
  
  let logoImg = document.getElementById("logo-img");
  let questionImg = document.getElementById("question-img");
+ let audio = document.getElementById("audio");
+
+
 
  let endImg = document.getElementById("end-img");
  let shuffledQuestions = [];
@@ -88,6 +93,24 @@
   */
  
   playAgainButton.addEventListener('click', resetGame);
+
+  /*If the PlayAudio is clicked, the sound will start*/
+
+  playAudio.addEventListener('click', function(){
+    audio.play();
+  } );
+
+/*If the NextButton is clicked, the sound will pause*/
+
+nextButton.addEventListener('click', function() {
+    audio.pause();
+  });
+
+/*If the NextButton is clicked, the sound will pause*/
+
+  playPause.addEventListener('click', function(){
+    audio.pause();
+  } );
  
   /* HTML that is displayed when the Rules button is clicked */
  
@@ -137,6 +160,7 @@
      answerTwo.innerText = currentQuestion.answer2;
      answerThree.innerText = currentQuestion.answer3;
      questionImg.setAttribute('src', "assets/images/" + currentQuestion.img);
+     audio.setAttribute('src', "assets/sounds/" + currentQuestion.audio);
      
      
      answerOne.addEventListener('click', checkAnswer);
@@ -329,7 +353,7 @@
          answer3: 'Cat',
          correct: 'Cow',
          img: "cow2.png", 
-         audio: "assets/sounds/cow.mp3",
+         audio: "cow.mp3",
      },
      {
         question : "What farm animal is this?", 
@@ -338,9 +362,7 @@
         answer3: "Cat",
         correct: "Cat",
         img: "cat.png",
-        audio: "assets/sounds/cat.mp3",
-       
-
+        audio: "cat.mp3",
     },
     {
         question : "What farm animal is this?",
@@ -349,7 +371,7 @@
         answer3: "Horse",
         correct: "Horse",
         img: "horse.png", 
-        audio:"assets/sounds/cat.mp3",
+        audio:"horse.mp3",
     },
     {
         question : "What farm animal is this?",
@@ -358,7 +380,7 @@
         answer3: "Horse",
         correct: "Dog",
         img: "dog.png",
-        audio:"",  
+        audio:"dog.mp3",  
     },
     {
         question : "What farm animal is this?",
@@ -367,7 +389,7 @@
         answer3: "Goat",
         correct: "Pig",
         img: "pig.png", 
-        audio:"",
+        audio:"pig.mp3",
     },
     {
         question : "What farm animal is this?",
@@ -376,7 +398,7 @@
         answer3: "Duck",
         correct: "Sheep",
         img: "sheep.png",
-        audio:"",  
+        audio:"sheep.mp3",  
     },
     {
         question : "What farm animal is this?",
@@ -385,7 +407,7 @@
         answer3: "Duck",
         correct: "Rooster",
         img: "rooster.png",
-        audio:"",  
+        audio:"rooster.mp3",  
     },
     {
         question : "What farm animal is this?",
@@ -394,7 +416,7 @@
         answer3: "Dog",
         correct: "Chicken",
         img: "chicken.png",
-        audio:"", 
+        audio:"chicken.mp3", 
     },
     {
         question : "What farm animal is this?",
@@ -403,7 +425,7 @@
         answer3: "Pig",
         correct: "Duck",
         img: "duck.png",
-        audio:"",   
+        audio:"duck.mp3",   
     },
     {
         question : "What farm animal is this?",
@@ -412,12 +434,11 @@
         answer3: "Goat",
         correct: "Goat",
         img: "goat.png",
-        audio:"",   
+        audio:"goat.mp3",   
     },
    
  ];
-/*var audio = new Audio();*/
-var audio = new Audio(document.getElementsById("audio"));
+
  function play() {
     let file = shuffledQuestions[questionCounter].audio;    
     audio = new Audio(file); 
