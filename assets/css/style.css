@@ -81,17 +81,11 @@ h4 {
 
 /*Play/Pause Button */
 
-.sound {
-    display: flex;
-    text-align: center;
-    width: 2rem;
-    margin-left: 45%;
-    margin-bottom: 2%;
-}
+
 
 #play { border: solid #2EC4B6;
     border-radius: 5px;
-    margin-right: 50%;
+    
 }
 
 #pause {
@@ -174,6 +168,14 @@ h4 {
     border-radius: 5px;
     margin: 10px;
     background-color: white;
+}
+
+#play:hover {
+    border: 2px solid black;
+}
+
+#pause:hover {
+    border: 2px solid black;
 }
 
 .btn:hover {
