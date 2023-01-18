@@ -151,9 +151,10 @@
   */
  
  function shuffle() {
-     shuffledQuestions = questions.sort(function () {
+    shuffledQuestions = questions;
+    /*shuffledQuestions = questions.sort(function () {
          return Math.random() - 0.5;
-       });
+       });*/
     displayQuestion(shuffledQuestions[currentQuestionIndex]);
     console.log("Shuffled");
  }
@@ -209,6 +210,8 @@
              this.classList.add('btn-correct');  
              console.log("Correct!");
              incrementScore(scorePoints);
+             var audio = new Audio(questions[0].audio);
+             audio.play();
          } else {
              this.classList.add('btn-wrong');
              console.log("Wrong!");
@@ -218,7 +221,7 @@
                  }
              } 
          } 
-         if (questionCounter === 12) {
+         if (questionCounter === 10) {
              nextButton.innerHTML = 'End';
          } 
      nextButton.classList.remove('hide');
@@ -413,9 +416,10 @@
     },
    
  ];
- 
+/*var audio = new Audio();*/
+var audio = new Audio(document.getElementsById("audio"));
  function play() {
-    let file = questions[questionCounter].audio;    
-    let audio = new Audio("file"); 
+    let file = shuffledQuestions[questionCounter].audio;    
+    audio = new Audio(file); 
     audio.play();
  }
