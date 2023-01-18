@@ -10,7 +10,6 @@
  let answerOne = document.getElementById("answer1");
  let answerTwo = document.getElementById("answer2");
  let answerThree = document.getElementById("answer3");
- 
 
  
  /* Game Areas */
@@ -49,7 +48,7 @@
  let timer = document.getElementById("timer");
  let counter = 0;
  let myInterval;
- 
+
  /* Event Listeners */
  
  /**
@@ -138,6 +137,7 @@
      answerTwo.innerText = currentQuestion.answer2;
      answerThree.innerText = currentQuestion.answer3;
      questionImg.setAttribute('src', "assets/images/" + currentQuestion.img);
+     
      
      answerOne.addEventListener('click', checkAnswer);
      answerTwo.addEventListener('click', checkAnswer);
@@ -314,7 +314,7 @@
      removedQuestions.length = 0;
  }
 
- 
+
  //List of Quiz questions
  
  let questions = [
@@ -325,7 +325,8 @@
          answer2: 'Pig',
          answer3: 'Cat',
          correct: 'Cow',
-         img: "cow2.png",  
+         img: "cow2.png", 
+         audio: "assets/sounds/cow.mp3",
      },
      {
         question : "What farm animal is this?", 
@@ -334,6 +335,7 @@
         answer3: "Cat",
         correct: "Cat",
         img: "cat.png",
+        audio: "assets/sounds/cat.mp3",
        
 
     },
@@ -343,7 +345,8 @@
         answer2: "Pig",
         answer3: "Horse",
         correct: "Horse",
-        img: "horse.png" 
+        img: "horse.png", 
+        audio:"assets/sounds/cat.mp3",
     },
     {
         question : "What farm animal is this?",
@@ -351,7 +354,8 @@
         answer2: "Cat",
         answer3: "Horse",
         correct: "Dog",
-        img: "dog.png"  
+        img: "dog.png",
+        audio:"",  
     },
     {
         question : "What farm animal is this?",
@@ -359,7 +363,8 @@
         answer2: "Pig",
         answer3: "Goat",
         correct: "Pig",
-        img: "pig.png" 
+        img: "pig.png", 
+        audio:"",
     },
     {
         question : "What farm animal is this?",
@@ -367,7 +372,8 @@
         answer2: "Horse",
         answer3: "Duck",
         correct: "Sheep",
-        img: "sheep.png"  
+        img: "sheep.png",
+        audio:"",  
     },
     {
         question : "What farm animal is this?",
@@ -375,7 +381,8 @@
         answer2: "Chicken",
         answer3: "Duck",
         correct: "Rooster",
-        img: "rooster.png"  
+        img: "rooster.png",
+        audio:"",  
     },
     {
         question : "What farm animal is this?",
@@ -383,7 +390,8 @@
         answer2: "Chicken",
         answer3: "Dog",
         correct: "Chicken",
-        img: "chicken.png"   
+        img: "chicken.png",
+        audio:"", 
     },
     {
         question : "What farm animal is this?",
@@ -391,7 +399,8 @@
         answer2: "Sheep",
         answer3: "Pig",
         correct: "Duck",
-        img: "duck.png"   
+        img: "duck.png",
+        audio:"",   
     },
     {
         question : "What farm animal is this?",
@@ -399,8 +408,14 @@
         answer2: "Cow",
         answer3: "Goat",
         correct: "Goat",
-        img: "goat.png"   
+        img: "goat.png",
+        audio:"",   
     },
    
  ];
  
+ function play() {
+    let file = questions[questionCounter].audio;    
+    let audio = new Audio("file"); 
+    audio.play();
+ }
