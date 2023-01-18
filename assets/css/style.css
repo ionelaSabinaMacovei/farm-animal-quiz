@@ -79,6 +79,26 @@ h4 {
     margin: 2%;
 }
 
+/*Play/Pause Button */
+
+.sound {
+    display: flex;
+    text-align: center;
+    width: 2rem;
+    margin-left: 45%;
+    margin-bottom: 2%;
+}
+
+#play { border: solid #2EC4B6;
+    border-radius: 5px;
+    margin-right: 50%;
+}
+
+#pause {
+    border: solid #2EC4B6;
+    border-radius: 5px;
+}
+
 /* Timer Element */
 
 .timer-element {

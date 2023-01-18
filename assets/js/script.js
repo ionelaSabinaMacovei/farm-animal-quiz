@@ -108,7 +108,7 @@ nextButton.addEventListener('click', function() {
 
 /*If the NextButton is clicked, the sound will pause*/
 
-  playPause.addEventListener('click', function(){
+  pauseAudio.addEventListener('click', function(){
     audio.pause();
   } );
  
@@ -439,8 +439,8 @@ nextButton.addEventListener('click', function() {
    
  ];
 
- function play() {
+ /*function play() {
     let file = shuffledQuestions[questionCounter].audio;    
     audio = new Audio(file); 
     audio.play();
- }
+ }*/
