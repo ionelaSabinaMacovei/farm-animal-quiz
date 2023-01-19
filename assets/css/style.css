@@ -150,12 +150,6 @@ h4 {
 }
 
 
-/* End Page */
-/* Final Score Image */
-
-#end-img {
-    height: 33vh;
-}
 
 /* Buttons */
 
@@ -219,7 +213,7 @@ h4 {
 .social-networks {
     display: inline-flex;
     margin-left: 10px;
-    margin-top: 250px;
+    margin-top: 275px;
     text-align: center;
 }
 
