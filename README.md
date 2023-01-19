@@ -2,10 +2,10 @@
 
 Farm Animal Quiz is an interactive quiz website design for small childrens/juniors, where can test their knoledge regarding farm animals. It is designed to entertain childrens and their parents. Also the parents and teachers  can use the little quiz to help the little ones to learn the common farm animals. The little quiz contain images and sounds which helps children to learn easily all the animal in an interactive way.
 
-[View the live project here.](https://adrinecl.github.io/milestone-project2/)
+[View the live project here.](https://ionelasabinamacovei.github.io/farm-animal-quiz/)
 
 
-![Responsive Mockup]()
+![Responsive Mockup](docs/images/monck-up.png)
 
 
 # Contents
@@ -21,11 +21,12 @@ Farm Animal Quiz is an interactive quiz website design for small childrens/junio
     * [Quiz Page](<#quiz-page>)
     * [End Page](<#end-page>)
 * [**Testing**](<#testing>)
+* [**Isues and Bugs**](<#issues-and-bugs>)
 * [**Deployment**](<#deployment>)
 * [**Credits**](<#credits>)
     * [**Content**](<#content>)
     * [**Media**](<#media>)
-* [**Technologies Used**](<#technologies-used>)
+* [**Frameworks, Libraries & Programs Used**](<#frameworks,-libraries-&-programs-used>)
 
 
 # User Experience (UX)
@@ -130,3 +131,128 @@ In both cases, the user has two button options for how to continue from this scr
 
 
 ### Validator Testing
+
+#### HTML
+No errors were returned when passing through the official [W3C Markup Validator](https://validator.w3.org/).
+The HTML validation passes without errors. 
+
+- [W3C Markup Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fionelasabinamacovei.github.io%2Ffarm-animal-quiz%2F).
+ ![W3C Markup Validator Results](docs/images/html-validator.png).
+
+#### CSS
+No errors were found when passing through the official [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+The CSS validation passes without errors.
+
+- [W3C CSS Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fionelasabinamacovei.github.io%2Ffarm-animal-quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+![W3C CSS Validator Results](docs/images/css-validator.png).
+
+#### JavaScript
+
+No errors were found when passing through [JSHint](https://jshint.com).
+JSHint was used to validate the JavaScript for the project. The code passed validation without errors and with one warning that we are using modern JavaScript features. JSHint does not provide a link to the results.
+
+![JsHint Validator Results](docs/images/js-validator.png).
+
+### Performance and Accessibility Testing
+
+The website was tested for performance and accessibilty using Lighthouse on google chrome's developer tools.
+
+![Lighthouse testing](docs/images/lighthouse.png).
+
+# Issues and Bugs
+
+1. 
+- Expected - Sound button is expected to play sounds.
+- Testing - Press the button to see if it is working.
+- Result - Not workimg.
+- Fix - Wire the button to the javasccript file by using getElementById. Creating a new variable with the document.getElementById and using the id of the button.
+
+2. 
+- Expected - Sound stop when the next button is presed.
+- Testing - Press the next button.
+- Result - The sound continue to play.
+- Fix - Fixed the bug by using addEventListener. Create the nextButton.addEventListener and setting the function when clicked the button audio will pause(audi.pause).
+
+3. 
+- Expected - Score to be incremented by one.
+- Testing - Plaing the game.
+- Result - The score is incremented by 3.
+- Fix - Removed the loop through the answer buttons and event listener, and instead created three separate event listeners; one for each answer button.
+
+4. 
+- Expected - If pressed the correct answer the button turns green and if incorrect the buton turn red.
+- Testing - Pressed the answer button.
+- Result - The game doesn't actually tell them which answer was the correct one.
+- Fix - Amended the function to also highlight the correct answer button in green even when a different button has been pressed. This adds to a better user experience overall.
+
+5. 
+- Expected - Play particular sounds for each quiz.
+- Testing - Press the play button.
+- Result - Plaing the same sound.
+- Fix - Fixed by using the setAstribute in function called displayOuestion and setting the right source and after adding particular sounds to the list questions.
+
+[Back to top](<#contents>)
+
+# Deployment
+
+This website was deployed to GitHub Pages. The steps to deploy are:
+- Log in to GitHub
+- Go to the setting for this repository.
+- Select pages in left hand navigation menu.
+- From the source dropdown, select main branch and then press save.
+- The site will be deployed now. It may take a few minutes to go live.
+
+### Local Deployement
+To fork this repository, follow these steps:
+- Log in to GitHub
+- Go to the repository
+- On the top right corner, click on the button that says fork.
+
+To clone this repository, follow the steps:
+- Log in to GitHub
+- Go to the repository
+- Beside the gipod button, it is code button
+- Press the Code button and the chose one of the two clonning methods
+- 1. The first one is by copping the link 
+- 2. The second one is by downloding(at the botom) by pressing Download ZIP.
+
+[Back to top](<#contents>)
+
+
+# Credits
+### Content
+
+* The colour scheme was researched from the following websites:
+https://coolors.co/palettes/trending
+* The ideea on how to create a quiz game with javascript were found on: 
+https://github.com/quiltingcode/disneysidekicks
+https://github.com/adrinecl/milestone-project2
+W3schools.com/howto/howto_js_toggle_hide_show.asp
+https://www.geeksforgeeks.org/shuffle-or-randomize-a-list-in-java/
+ttps://sebhastian.com/shuffle-array-javascript/#:~:text=A%20JavaScript%20array%20elements%20can,using%20the%20sort()%20method.&text=The%20JavaScript%20Array%20sort(),value%20returned%20by%20that%20function.
+https://freeanimalsounds.org/farm-animals/
+
+
+### Media
+
+https://www.pngwing.com/en/search?q=ball
+https://imgbin.com/free-png/ball
+https://fondosmil.com/disney
+https://favicon.io/
+
+# Frameworks, Libraries & Programs Used
+
+- [Google Fonts](https://fonts.google.com/ "Link to Google Fonts") was used to import the fonts "Lato", and "Oswald".
+- [Font Awesome](https://fontawesome.com/ "Link to FontAwesome") was used for the several icons.
+- [GitPod](https://gitpod.io/ "Link to GitPod homepage") was used for writing, commiting, and pushing code.
+- [GitHub](https://github.com/ "Link to GitHub")
+
+[Back to top](<#contents>)
+
+
+
+
+
+
+
+
