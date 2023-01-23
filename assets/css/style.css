@@ -208,7 +208,13 @@ h4 {
 
 /* Footer */
 /* The Footer section includes a grid to organize all of the elements such as logo, social media links and contact information. */
+#footer{
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
 
+}
 
 .social-networks {
     display: inline-flex;
@@ -279,7 +285,7 @@ h4 {
 
     #rules {
         text-align: left;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         margin-left: 50px;
     }
 }

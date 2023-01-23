@@ -123,6 +123,7 @@ nextButton.addEventListener('click', function() {
              <li>Click to select one of three possible answers</li>
              <li>You will earn 1 point for each correct answer</li>
              <li>After each question, click next to continue</li>
+             <li>Under the image there are two buttons where you can play and pause specific sounds for each animal</li>
          </ol>`;
      rulesButton.classList.add('hide');
  }
