@@ -1,6 +1,6 @@
 # **_Farm Animal Quiz_**
 
-Farm Animal Quiz is an interactive quiz website design for small childrens/juniors, where can test their knoledge regarding farm animals. It is designed to entertain childrens and their parents. Also the parents and teachers  can use the little quiz to help the little ones to learn the common farm animals. The little quiz contain images and sounds which helps children to learn easily all the animal in an interactive way.
+Farm Animal Quiz is an interactive quiz website design for small children’s/juniors, where can test their knowledge regarding farm animals. It is designed to entertain children’s and their parents. Also the parents and teachers  can use the little quiz to help the little ones to learn the common farm animals. The little quiz contain images and sounds which helps children to learn easily all the animal in an interactive way.
 
 [View the live project here.](https://ionelasabinamacovei.github.io/farm-animal-quiz/)
 
@@ -43,9 +43,9 @@ Farm Animal Quiz is an interactive quiz website design for small childrens/junio
 The wireframes for the Farm Animal Quiz project were produced in Balsamiq.  There are frames for a desktop device.
 
 
-![Homepage wireframe image](docs/images/first-page.png)
-![Questions Page wireframe image](docs/images/question-page.png)
-![End of Quiz Page wireframe image](docs/images/end-page.png)
+![Homepage wireframe image](docs/images/first-pg.png)
+![Questions Page wireframe image](docs/images/question-pg.png)
+![End of Quiz Page wireframe image](docs/images/end-pg.png)
 
 [Back to top](<#contents>)
 
@@ -68,7 +68,7 @@ Some colours were adjusted accordingly to improve visibility.
 
 ## Home Page
 
-At the top of the website is the main title and an introduction to the quiz. The game logo is displayed here. Underneath the quiz introduction, there are two buttons to choose from. A 'Rules' button and a 'Start Quiz' button. If the user clicks the 'Rules' button, the quiz introduction text is replaced by a set of rules, and only the 'Start Quiz' button remains.  If the user clicks the 'Start Button', the quiz introduction and the two buttons disappear, and are replaced with the Quiz Page. Also the page contain a footer saction where are displayed the media links.
+At the top of the website is the main title and an introduction to the quiz. The game logo is displayed here. Underneath the quiz introduction, there are two buttons to choose from. A 'Rules' button and a 'Start Quiz' button. If the user clicks the 'Rules' button, the quiz introduction text is replaced by a set of rules, and only the 'Start Quiz' button remains.  If the user clicks the 'Start Button', the quiz introduction and the two buttons disappear, and are replaced with the Quiz Page. Also the page contain a footer section where are displayed the media links.
 
 ![Home page](docs/images/home-pg.png)
 
@@ -84,7 +84,7 @@ Once the user has selected the 'Start Quiz' button from either the Home page or 
 
 At the top of the quiz area, the user is told which question they are on out of a total of 10 questions.
 
-An image is displayed which changes according to the particular question drawn. Under the image, the user can find a play and pause button which plays particular sounds for every question,also underneath the sound buttons the user can read the quiz question and three possible answers displayed in clickable buttons. Finally the user can see their score throughout the quiz. A countdown timer is displayed in the up-left of the page. The user is given 30 seconds to answer each question, and the countdown begins as soon as the question is displayed. If an answer button is clicked within the 30 seconds limit, the timer stops and the user is given feedback on their response as normal. If the timer runs out and no answer has been selected, the correct answer and two incorrect answers are highlighted, no points are awarded, and the next button is displayed to continue on to the next question
+An image is displayed which changes according to the particular question drawn. Under the image, the user can find a play and pause button which plays particular sounds for every question, also underneath the sound buttons the user can read the quiz question and three possible answers displayed in clickable buttons. Finally the user can see their score throughout the quiz. A countdown timer is displayed in the up-left of the page. The user is given 30 seconds to answer each question, and the countdown begins as soon as the question is displayed. If an answer button is clicked within the 30 seconds limit, the timer stops and the user is given feedback on their response as normal. If the timer runs out and no answer has been selected, the correct answer and two incorrect answers are highlighted, no points are awarded, and the next button is displayed to continue on to the next question
 
 Once an answer has been selected, depending on which button is pressed, various things may or may not occur. If the user selects the correct answer, the selected answer button will turn green to indicate to the user that it's correct, the score will go up by 1 point, and a 'Next' button will appear to move on to the next question. If however the user selects an incorrect answer, the selected button will turn red, the correct answer will turn green to show which button the user should have chosen, the score does not change, and the 'Next' button will appear to move on to the next question. 
 
@@ -93,7 +93,7 @@ Once an answer has been selected, depending on which button is pressed, various 
 
 ## End Page
 
-Once 10 questions have been answered, when the user clicks the 'End' button the quiz is finished, the questions disappear and they are replaced by a summary of how well the user did. If they score more than 4 points, they will see a message congratulating them on their score. If the player gets 4 points or lower, they will receive a message of comiseration.
+Once 10 questions have been answered, when the user clicks the 'End' button the quiz is finished, the questions disappear and they are replaced by a summary of how well the user did. If they score more than 4 points, they will see a message congratulating them on their score. If the player gets 4 points or lower, they will receive a message of commiseration.
 
 ![End Page High Score Image](docs/images/congrats-pg.png)
 ![End Page Low Score Image](docs/images/low-pg.png)
@@ -116,18 +116,19 @@ In both cases, the user has two button options for how to continue from this scr
 
 - The footer links work perfectly and open on a new page.
 
-- Once the form is submitted it displays a thank you message. The button on thank yo page also works fine and takes the users back to home page.
+- Once the form is submitted it displays a thank you message. The button on thank you page also works fine and takes the users back to home page.
 
 
 ### Manual Testing
 
-- On the home page the logo is diplayed and the buttons work as is needed. 
+- On the home page the logo is displayed and the buttons work as is needed. 
 - The 'Start Button' open the quiz and the 'Rules Button' opens a new page with all the rules.
 - On the rules page the button to start the quiz work well, will start the game.
-- On the quiz page the answer buttons work well, the sound is played and pused from the play/pause buttons. Also the particular sounds and image are displayed as needed.
+- On the quiz page the answer buttons work well, the sound is played and paused from the play/pause buttons. Also the particular sounds and image are displayed as needed.
 - The timer start to count-down when the quiz page starts.
-- After the user choose an answer the next button is displaied and the score section swhon the user score, and worked as intended.
+- After the user choose an answer the next button is displayed and the score section shown the user score, and worked as intended.
 - Depends on the score obtained by the user at the end of the quiz appear the correct message.
+
 
 
 ### Validator Testing
@@ -151,7 +152,7 @@ The CSS validation passes without errors.
 No errors were found when passing through [JSHint](https://jshint.com).
 JSHint was used to validate the JavaScript for the project. The code passed validation without errors and with one warning that we are using modern JavaScript features. JSHint does not provide a link to the results.
 
-![JsHint Validator Results](docs/images/js-validator.png).
+![JsHint Validator Results](docs/images/js-result.png).
 
 ### Performance and Accessibility Testing
 
@@ -164,23 +165,23 @@ The website was tested for performance and accessibilty using Lighthouse on goog
 1. 
 - Expected - Sound button is expected to play sounds.
 - Testing - Press the button to see if it is working.
-- Result - Not workimg.
-- Fix - Wire the button to the javasccript file by using getElementById. Creating a new variable with the document.getElementById and using the id of the button.
+- Result - Not sounds were played.
+- Fix - Wire the button to the javaScript file by using getElementById. Creating a new variable with the document.getElementById and using the id of the button.
 
 2. 
-- Expected - Sound stop when the next button is presed.
+- Expected - Sound stop when the next button is pressed.
 - Testing - Press the next button.
 - Result - The sound continue to play.
-- Fix - Fixed the bug by using addEventListener. Create the nextButton.addEventListener and setting the function when clicked the button audio will pause(audi.pause).
+- Fix - Fixed the bug by using addEventListener. Create the nextButton.addEventListener and setting the function when clicked the button audio will pause(audio.pause).
 
 3. 
 - Expected - Score to be incremented by one.
-- Testing - Plaing the game.
+- Testing - Playing the game.
 - Result - The score is incremented by 3.
 - Fix - Removed the loop through the answer buttons and event listener, and instead created three separate event listeners; one for each answer button.
 
 4. 
-- Expected - If pressed the correct answer the button turns green and if incorrect the buton turn red.
+- Expected - If pressed the correct answer the button turns green and if incorrect the button turn red.
 - Testing - Pressed the answer button.
 - Result - The game doesn't actually tell them which answer was the correct one.
 - Fix - Amended the function to also highlight the correct answer button in green even when a different button has been pressed. This adds to a better user experience overall.
@@ -188,7 +189,7 @@ The website was tested for performance and accessibilty using Lighthouse on goog
 5. 
 - Expected - Play particular sounds for each quiz.
 - Testing - Press the play button.
-- Result - Plaing the same sound.
+- Result - Playing the same sound.
 - Fix - Fixed by using the setAstribute in function called displayOuestion and setting the right source and after adding particular sounds to the list questions.
 
 [Back to top](<#contents>)
@@ -202,7 +203,7 @@ This website was deployed to GitHub Pages. The steps to deploy are:
 - From the source dropdown, select main branch and then press save.
 - The site will be deployed now. It may take a few minutes to go live.
 
-### Local Deployement
+### Local Development
 To fork this repository, follow these steps:
 - Log in to GitHub
 - Go to the repository
@@ -211,10 +212,10 @@ To fork this repository, follow these steps:
 To clone this repository, follow the steps:
 - Log in to GitHub
 - Go to the repository
-- Beside the gipod button, it is code button
-- Press the Code button and the chose one of the two clonning methods
+- Beside the gitpod button, it is code button
+- Press the Code button and the chose one of the two cloning methods
 - 1. The first one is by copping the link 
-- 2. The second one is by downloding(at the botom) by pressing Download ZIP.
+- 2. The second one is by downloading(at the botom) by pressing Download ZIP.
 
 [Back to top](<#contents>)
 
@@ -230,15 +231,17 @@ https://github.com/adrinecl/milestone-project2
 W3schools.com/howto/howto_js_toggle_hide_show.asp
 https://www.geeksforgeeks.org/shuffle-or-randomize-a-list-in-java/
 ttps://sebhastian.com/shuffle-array-javascript/#:~:text=A%20JavaScript%20array%20elements%20can,using%20the%20sort()%20method.&text=The%20JavaScript%20Array%20sort(),value%20returned%20by%20that%20function.
-https://freeanimalsounds.org/farm-animals/
 
 
 ### Media
-
+* The images and background was reaserched from the following websites:
 https://www.pngwing.com/en/search?q=ball
 https://imgbin.com/free-png/ball
 https://fondosmil.com/disney
 https://favicon.io/
+
+* The sounds was researched from the following website:
+https://freeanimalsounds.org/farm-animals/
 
 # Frameworks, Libraries & Programs Used
 
