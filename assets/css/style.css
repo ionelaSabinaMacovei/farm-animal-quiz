@@ -8,7 +8,7 @@ html {
 
 body {
     font-family: "Kalam", cursive, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #252525;
     text-align: center;
     background-image: url('../images/background3.jpg');
@@ -208,13 +208,7 @@ h4 {
 
 /* Footer */
 /* The Footer section includes a grid to organize all of the elements such as logo, social media links and contact information. */
-#footer{
-    position: fixed;
-    padding: 10px 10px 0px 10px;
-    bottom: 0;
-    width: 100%;
 
-}
 
 .social-networks {
     display: inline-flex;
@@ -267,8 +261,8 @@ h4 {
     }
 
     .timer-element {
-        width: 100px;
-        height: 50px;
+        width: 90px;
+        height: 40px;
     }
 
 }
